@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KasQita</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <!-- Sidebar -->
+            <div class="col-lg-2 sidebar">
+
+                <h2 class="logo">
+                    🌸 KasQita
+                </h2>
+
+                <ul class="menu">
+
+                    <li>
+                        <i class="bi bi-house-fill"></i>
+                        Dashboard
+                    </li>
+
+                    <li>
+                        <i class="bi bi-people-fill"></i>
+                        Data Siswa
+                    </li>
+
+                    <li>
+                        <i class="bi bi-cash-stack"></i>
+                        Pembayaran
+                    </li>
+
+                    <li>
+                        <i class="bi bi-wallet2"></i>
+                        Pengeluaran
+                    </li>
+
+                    <li>
+                        <i class="bi bi-file-earmark-text-fill"></i>
+                        Laporan
+                    </li>
+
+                    <li>
+                        <i class="bi bi-gear-fill"></i>
+                        Pengaturan
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!-- Content -->
+            <div class="col-lg-10 content">
+
+                <h1>
+                    Dashboard Kas Kelas
+                </h1>
+
+                <div class="row mt-4">
+
+                    <div class="col-md-3">
+
+                        <div class="card-box saldo">
+
+                            💰
+
+                            <h4>Saldo Kas</h4>
+
+                            <h2>Rp 0</h2>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+
+                        <div class="card-box siswa">
+
+                            👨‍🎓
+
+                            <h4>Jumlah Siswa</h4>
+
+                            <h2>0</h2>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+
+                        <div class="card-box bayar">
+
+                            ✅
+
+                            <h4>Sudah Bayar</h4>
+
+                            <h2>0</h2>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+
+                        <div class="card-box belum">
+
+                            ❌
+
+                            <h4>Belum Bayar</h4>
+
+                            <h2>0</h2>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="mt-5">
+
+                    <h2>📋 Data Siswa</h2>
+
+                    <button class="btn btn-primary">
+                        Tambah Siswa
+                    </button>
+
+                    <button class="btn btn-warning">
+                        Pengeluaran
+                    </button>
+
+                    <table class="table mt-3">
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Nama</th>
+                                <th>Minggu Terbayar</th>
+                                <th>Total Bayar</th>
+                                <th>Aksi</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody id="dataSiswa">
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

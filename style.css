@@ -1,0 +1,107 @@
+body{
+    background:#f6f7fb;
+    font-family:Segoe UI,sans-serif;
+}
+
+.sidebar{
+
+    min-height:100vh;
+    background:linear-gradient(180deg,#ff8ec7,#8ab6ff);
+
+    color:white;
+
+    padding:25px;
+
+}
+
+.logo{
+
+    font-weight:bold;
+
+    margin-bottom:40px;
+
+}
+
+.menu{
+
+    list-style:none;
+
+    padding:0;
+
+}
+
+.menu li{
+
+    padding:15px;
+
+    margin-bottom:10px;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.menu li:hover{
+
+    background:white;
+
+    color:#444;
+
+}
+
+.content{
+
+    padding:30px;
+
+}
+
+.card-box{
+
+    border-radius:20px;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+    margin-bottom:20px;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.1);
+
+}
+
+.saldo{
+
+    background:#ff8ec7;
+
+}
+
+.siswa{
+
+    background:#74b9ff;
+
+}
+
+.bayar{
+
+    background:#55efc4;
+
+}
+
+.belum{
+
+    background:#fab1a0;
+
+}
+
+table{
+
+    background:white;
+
+    border-radius:15px;
+
+}
